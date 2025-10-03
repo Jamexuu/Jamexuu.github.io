@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('assets/fonts/Gilroy-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('assets/fonts/Gilroy-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('assets/fonts/Gilroy-Regular.ttf') format('truetype');
+}
+
+:root {
+    --bold-font: 'Gilroy-Bold', sans-serif;
+    --medium-font: 'Gilroy-Medium', sans-serif;
+    --regular-font: 'Gilroy-Regular', sans-serif;
+}
