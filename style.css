@@ -18,3 +18,7 @@
     --medium-font: 'Gilroy-Medium', sans-serif;
     --regular-font: 'Gilroy-Regular', sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}
