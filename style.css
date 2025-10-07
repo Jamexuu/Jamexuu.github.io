@@ -17,6 +17,7 @@
     --bold-font: 'Gilroy-Bold', sans-serif;
     --medium-font: 'Gilroy-Medium', sans-serif;
     --regular-font: 'Gilroy-Regular', sans-serif;
+    --bs-body-color: #212529;
 }
 
 html {
