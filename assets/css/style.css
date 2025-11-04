@@ -1,25 +1,27 @@
-@font-face {
-    font-family: 'Gilroy-Bold';
-    src: url('assets/fonts/Gilroy-Bold.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Gilroy-Medium';
-    src: url('assets/fonts/Gilroy-Medium.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Gilroy-Regular';
-    src: url('assets/fonts/Gilroy-Regular.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 
 :root {
-    --bold-font: 'Gilroy-Bold', sans-serif;
-    --medium-font: 'Gilroy-Medium', sans-serif;
-    --regular-font: 'Gilroy-Regular', sans-serif;
-    --bs-body-color: #212529;
+    --font: 'Roboto Mono', sans-serif;
+    --font-weight-thin: 100;
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font);
+    background-color: #101010;
+    color: white;
+}
+
+.sub-info {
+    font-family: var(--font);
+    font-weight: var(--font-weight-thin);
+    letter-spacing: 0.06em;
+}
+
+.icon {
+    color: white;
 }
