@@ -1,39 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>James</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-
-    <style>
-        .glass {
-            background: rgba(112, 109, 109, 0.3);
-        }
-    </style>
-</head>
-
+<head id="header"></head>
 <body>
-
     <div class="container-fluid">
-        <div class="container sticky-top rounded-4 glass p-3 p-md-4 mt-3 mt-md-4 border border-white text-center">
-            <a href="#" class="text-decoration-none text-white h6 me-3">About</a>
-            <a href="#" class="text-decoration-none text-white h6 me-3">Activities</a>
-            <a href="#" class="text-decoration-none text-white h6 me-3 d-none d-md-inline">Send an Email</a>
-            <a href="#" class="text-decoration-none text-white h6 me-3 d-inline d-md-none">Email</a>
-            <a href="#" class="text-decoration-none text-white h6 d-none d-md-inline">Personal Projects</a>
-            <a href="#" class="text-decoration-none text-white h6 d-inline d-md-none">Projects</a>
+        <div class="container-md">
+            <div id="navbar" class="sticky-top"></div>
         </div>
-
         <div class="container mt-5">
-            <div class="row g-2">
-                <div class="col-12 col-md-6 d-flex flex-column mt-0">
-                    <div class="card glass rounded-4 border border-white p-3 text-white">
+            <div class="row g-3">
+                <div class="col-12 col-md-6 mt-0 d-flex flex-column">
+                    <div class="card glass rounded-4 border p-3 text-white">
                         <div class="row g-3 align-items-center">
                             <div class="col-12 col-md-auto d-flex justify-content-center justify-content-md-start">
                                 <img src="assets/images/my_pic.png" alt="my picture"
@@ -43,40 +20,51 @@
                                     style="max-width: 150px" />
                             </div>
                             <div class="col-12 col-md sub-info">
-                                <div class="h5">James Francis L. Mercado</div>
-                                <div class="fs-sm"><i class="bi bi-geo-alt icon"></i> Batangas, Philippines</div><br>
-                                <div class="fs-sm">IT Student | Software Developer</div><br>
+                                <div class="h5">James Francis Mercado</div>
+                                <div class="fs-sm">
+                                    <i class="bi bi-geo-alt icon"></i> Batangas, Philippines
+                                </div>
+                                <br />
+                                <div class="fs-sm">IT Student | Software Developer</div>
+                                <br />
 
                                 <div class="text-center text-md-start">
-                                    <a href=""><i class="bi bi-facebook icon fs-3 me-2"></i></a>
-                                    <a href=""><i class="bi bi-instagram icon fs-3 me-2"></i></a>
-                                    <a href=""><i class="bi bi-linkedin icon fs-3 me-2"></i></a>
-                                    <a href=""><i class="bi bi-github icon fs-3"></i></a>
+                                    <a href="https://www.facebook.com/jamesfrancis.mercado22"><i class="bi bi-facebook icon fs-3 me-2"></i></a>
+                                    <a href="https://www.instagram.com/gitofjames/"><i class="bi bi-instagram icon fs-3 me-2"></i></a>
+                                    <a href="https://www.linkedin.com/in/james-francis-mercado-b52015370/"><i class="bi bi-linkedin icon fs-3 me-2"></i></a>
+                                    <a href="https://github.com/Jamexuu"><i class="bi bi-github icon fs-3"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="h4 mt-auto mb-0 d-none d-md-block text-center">Tech Stacks</div>
+                    <div class="card glass rounded-4 border p-3 text-white mt-3 p-3 d-none d-md-block">
+                        <div class="h4 mb-2">Learning in Progress</div>
+                        <div class="ms-3">
+                            <i class="devicon-docker-plain-wordmark colored me-2 display-3"></i>
+                            <i class="devicon-laravel-line-wordmark colored me-2 display-3"></i>
+                            <i class="devicon-react-original-wordmark colored display-3"></i>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6 mt-4 mt-md-0">
-                    <div class="card glass rounded-4 border border-white p-3 text-white">
-                        <div class="h4">About Me</div>
+                <div class="col-12 col-md-6 mt-4 mt-md-0 order-1 order-md-0">
+                    <div class="card glass rounded-4 border p-3 text-white">
+                        <div class="h4 mb-3">About Me</div>
                         <div class="sub-info">
                             <p>
-                                I’m James Francis L. Mercado, an Information Technology student
-                                passionate about software development.
+                                I’m James Francis L. Mercado, an Information Technology
+                                student passionate about software development.
                             </p>
                             <p>
-                                Ever since I started programming back when I was in senior high
-                                school, I’ve been fascinated by how a few lines of code can
-                                bring ideas to life. I love playing with different
+                                Ever since I started programming back when I was in senior
+                                high school, I’ve been fascinated by how a few lines of code
+                                can bring ideas to life. I love playing with different
                                 technologies and working with languages like Java, Python, and
                                 PHP to create projects that challenge me and help me grow.
                             </p>
                             <p>
                                 I hope to keep growing as a developer, learning new
-                                technologies, and building software that not only works well but
-                                also helps people in meaningful ways.
+                                technologies, and building software that not only works well
+                                but also helps people in meaningful ways.
                             </p>
                         </div>
                     </div>
@@ -84,24 +72,61 @@
             </div>
         </div>
 
+        <div class="container">
+            <div class="card glass rounded-4 border p-3 text-white mt-3 p-3 d-block d-md-none">
+                <div class="h4 mb-2">Learning in Progress</div>
+                <div class="ms-3">
+                    <i class="devicon-docker-plain-wordmark colored me-2 display-3"></i>
+                    <i class="devicon-laravel-line-wordmark colored me-2 display-3"></i>
+                    <i class="devicon-react-original-wordmark colored display-3"></i>
+                </div>
+            </div>
+        </div>
+
         <div class="container mt-3 mb-5">
             <div class="row">
-                <div class="h4 d-block d-md-none">Tech Stacks</div>
-                <div class="col-12 col-md-6">
-                    <div class="card glass rounded-4 border border-white p-3 text-white">
-                        <div class="h5">Frontend</div>
-                        <div class="">
+                <div class="col-12 col-md-5">
+                    <div class="card glass rounded-4 border  p-3 text-white">
+                        <div class="h4 mb-3">Tech Stacks</div>
+                        <div class="h5 ms-3">Frontend</div>
+                        <div class="ms-3">
                             <i class="devicon-html5-plain-wordmark colored display-3"></i>
                             <i class="devicon-css3-plain-wordmark colored display-3"></i>
                             <i class="devicon-javascript-plain colored display-3"></i>
                             <i class="devicon-bootstrap-plain colored display-3"></i>
                         </div>
-                        <div class="h5 mt-4">Backend</div>
-                        <div class="">
+                        <div class="h5 mt-4 ms-3">Backend</div>
+                        <div class="ms-3">
                             <i class="devicon-php-plain colored display-3"></i>
                             <i class="devicon-python-plain colored display-3"></i>
                             <i class="devicon-java-plain-wordmark colored display-3"></i>
+                            <i class="devicon-mysql-plain-wordmark colored display-3"></i>
                             <i class="devicon-firebase-plain-wordmark colored display-3"></i>
+                        </div>
+                        <div class="h5 mt-4 ms-3">Tools</div>
+                        <div class="ms-3">
+                            <i class="devicon-git-plain colored display-3"></i>
+                            <i class="devicon-github-original-wordmark display-3"></i>
+                            <i class="devicon-vscode-plain colored display-3"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-7 mt-4 mt-md-0">
+                    <div class="card glass rounded-4 border  p-3 text-white">
+                        <div class="h4">Certifications</div>
+                        <div class="row mx-md-5">
+                            <div class="col-12 col-md-6 mb-md-0 mb-3">
+                                <div class="card rounded-4">
+                                    <img src="assets/images/placeholder.png" alt="" class="img-fluid rounded-4">
+                                    <div class="p p-3">Networking Basics by netacad (ongoing)</div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="card rounded-4">
+                                    <img src="assets/images/placeholder.png" alt="" class="img-fluid rounded-4">
+                                    <div class="p p-3">AWS Cloud Practitioner (Soon!)</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -109,44 +134,7 @@
         </div>
     </div>
 
-
-    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
-        xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800" preserveAspectRatio="none"
-        class="position-fixed top-0 start-0 w-100 h-100" style="z-index: -1">
-        <defs>
-            <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="oooscillate-grad">
-                <stop stop-color="hsl(145, 85%, 47%)" stop-opacity="1" offset="0%"></stop>
-                <stop stop-color="hsl(0, 0%, 10%)" stop-opacity="1" offset="100%"></stop>
-            </linearGradient>
-        </defs>
-        <g stroke-width="2" stroke="url(#oooscillate-grad)" fill="none" stroke-linecap="round">
-            <path d="M 0 572 Q 200 -100 400 400 Q 600 900 800 572" opacity="1.00"></path>
-            <path d="M 0 550 Q 200 -100 400 400 Q 600 900 800 550" opacity="0.96"></path>
-            <path d="M 0 528 Q 200 -100 400 400 Q 600 900 800 528" opacity="0.92"></path>
-            <path d="M 0 506 Q 200 -100 400 400 Q 600 900 800 506" opacity="0.89"></path>
-            <path d="M 0 484 Q 200 -100 400 400 Q 600 900 800 484" opacity="0.85"></path>
-            <path d="M 0 462 Q 200 -100 400 400 Q 600 900 800 462" opacity="0.81"></path>
-            <path d="M 0 440 Q 200 -100 400 400 Q 600 900 800 440" opacity="0.77"></path>
-            <path d="M 0 418 Q 200 -100 400 400 Q 600 900 800 418" opacity="0.73"></path>
-            <path d="M 0 396 Q 200 -100 400 400 Q 600 900 800 396" opacity="0.70"></path>
-            <path d="M 0 374 Q 200 -100 400 400 Q 600 900 800 374" opacity="0.66"></path>
-            <path d="M 0 352 Q 200 -100 400 400 Q 600 900 800 352" opacity="0.62"></path>
-            <path d="M 0 330 Q 200 -100 400 400 Q 600 900 800 330" opacity="0.58"></path>
-            <path d="M 0 308 Q 200 -100 400 400 Q 600 900 800 308" opacity="0.54"></path>
-            <path d="M 0 286 Q 200 -100 400 400 Q 600 900 800 286" opacity="0.51"></path>
-            <path d="M 0 264 Q 200 -100 400 400 Q 600 900 800 264" opacity="0.47"></path>
-            <path d="M 0 242 Q 200 -100 400 400 Q 600 900 800 242" opacity="0.43"></path>
-            <path d="M 0 220 Q 200 -100 400 400 Q 600 900 800 220" opacity="0.39"></path>
-            <path d="M 0 198 Q 200 -100 400 400 Q 600 900 800 198" opacity="0.35"></path>
-            <path d="M 0 176 Q 200 -100 400 400 Q 600 900 800 176" opacity="0.32"></path>
-            <path d="M 0 154 Q 200 -100 400 400 Q 600 900 800 154" opacity="0.28"></path>
-            <path d="M 0 132 Q 200 -100 400 400 Q 600 900 800 132" opacity="0.24"></path>
-            <path d="M 0 110 Q 200 -100 400 400 Q 600 900 800 110" opacity="0.20"></path>
-            <path d="M 0 88 Q 200 -100 400 400 Q 600 900 800 88" opacity="0.16"></path>
-            <path d="M 0 66 Q 200 -100 400 400 Q 600 900 800 66" opacity="0.13"></path>
-            <path d="M 0 44 Q 200 -100 400 400 Q 600 900 800 44" opacity="0.09"></path>
-        </g>
-    </svg>
+    <svg id="background" class="position-fixed top-0 start-0 w-100 h-100" style="z-index: -1"></svg>
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
@@ -174,6 +162,7 @@
             }
         }
     </script>
+    <script src="assets/js/fetch.js"></script>    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
