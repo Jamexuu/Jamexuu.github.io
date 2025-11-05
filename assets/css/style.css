@@ -25,3 +25,9 @@ body {
 .icon {
     color: white;
 }
+
+.glass {
+    background: rgba(26, 100, 40, 0.3);
+    backdrop-filter: blur(10px);
+    --webkit-backdrop-filter: blur(10px);
+}
