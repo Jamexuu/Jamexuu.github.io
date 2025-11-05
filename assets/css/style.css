@@ -31,3 +31,11 @@ body {
     backdrop-filter: blur(10px);
     --webkit-backdrop-filter: blur(10px);
 }
+
+.nav-link {
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    transform: translateY(-2px);
+}
