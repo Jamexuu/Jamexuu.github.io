@@ -17,49 +17,42 @@
     <div class="container-fluid">
         <div id="navbar" class="sticky-top"></div>
         <div class="container mt-5">
-            <div class="row glass rounded-4 border p-3 p-md-4 text-white">
+            <div class="row glass rounded-4 border p-3 p-md-4 text-white" id="thirdYearActivities">
                 <div class="col-12 mb-3">
                     <div class="h4">Third Year Activities</div>
-                </div>
-                <div class="col-12 col-md-4 mb-3 mb-md-0">
-                    <div class="card rounded-4">
-                        <iframe src="https://jamexuu.github.io/Lenovo-Legion-5/" class="rounded-4" width="100%"
-                            height="250" title="Lenovo Legion 5 Showcase"></iframe>
-                        <div class="card-body">
-                            <div class="h5">Lenovo Legion 5 Showcase</div>
-                            <div class="p">A showcase website for the Lenovo Legion 5 gaming laptop.</div>
-                            <div class="btn btn-primary mt-2 px-4"
-                                onclick="window.open('https://jamexuu.github.io/Lenovo-Legion-5/')"><i
-                                    class="bi bi-globe2"></i></div>
-                            <div class="btn btn-secondary mt-2 px-4"
-                                onclick="window.open('https://github.com/Jamexuu/Lenovo-Legion-5')">
-                                <i class="devicon-github-original"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="card rounded-4">
-                        <iframe src="https://jamexuu.github.io/Jeju-Island/" class="rounded-4" width="100%" height="250"
-                            title="Jeju Island Showcase"></iframe>
-                        <div class="card-body">
-                            <div class="h5">Jeju Island Showcase</div>
-                            <div class="p">A showcase website for the beautiful Jeju Island.</div>
-                            <div class="btn btn-primary mt-2 px-4"
-                                onclick="window.open('https://jamexuu.github.io/Jeju-Island/')"><i
-                                    class="bi bi-globe2"></i></div>
-                            <div class="btn btn-secondary mt-2 px-4"
-                                onclick="window.open('https://github.com/Jamexuu/Jeju-Island')">
-                                <i class="devicon-github-original"></i>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
 
         <svg id="background" class="position-fixed top-0 start-0 w-100 h-100" style="z-index: -1"></svg>
+        <script src="assets/js/data.js"></script>
         <script src="assets/js/fetch.js"></script>
+        <script>
+            const thirdYearActivities = document.getElementById('thirdYearActivities');
+
+            thirdYearProjects.forEach(project => {
+                thirdYearActivities.innerHTML += `
+                <div class="col-12 col-md-4 mb-3 mb-md-0">
+                    <div class="card rounded-4">
+                        <iframe src="`+ project.previewLink +`" class="rounded-4" width="100%"
+                            height="250" title="Lenovo Legion 5 Showcase"></iframe>
+                        <div class="card-body">
+                            <div class="h5">`+ project.title +`</div>
+                            <div class="p">A showcase website for the Lenovo Legion 5 gaming laptop.</div>
+                            <div class="btn btn-primary mt-2 px-4"
+                                onclick="window.open('`+ project.previewLink +`')"><i
+                                    class="bi bi-globe2"></i></div>
+                            <div class="btn btn-secondary mt-2 px-4"
+                                onclick="window.open('`+ project.githubLink +`')">
+                                <i class="devicon-github-original"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                `
+            });
+
+        </script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
             crossorigin="anonymous"></script>
