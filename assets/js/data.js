@@ -1,4 +1,4 @@
-var thirdYearProjects = [
+var thirdYearActivities= [
     {
         title: "Lenovo Legion 5 Showcase",
         description: "A showcase website for the Lenovo Legion 5 gaming laptop.",
@@ -24,3 +24,14 @@ var thirdYearProjects = [
         githubLink: "https://github.com/Jamexuu/Cryptocurrency-Overview"
     }
 ];
+
+var projects = [
+
+    {
+        title: "EasyBuy",
+        description: "This project is an e-commerce website for our final project in Web Development, System Integration and Architecture, and System Analysis and Design.",
+        image: "../assets/images/easybuy.png",
+        githubLink: "https://github.com/Jamexuu/EasyBuy-x-PackIT"
+    }
+
+]

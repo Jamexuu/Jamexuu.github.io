@@ -17,9 +17,9 @@
     <div class="container-fluid">
         <div id="navbar" class="sticky-top"></div>
         <div class="container mt-5">
-            <div class="row glass rounded-4 border p-3 p-md-4 text-white" id="thirdYearActivities">
+            <div class="row glass rounded-4 border p-3 p-md-4 text-white" id="projectsContainer">
                 <div class="col-12 mb-3">
-                    <div class="h4">Third Year Activities</div>
+                    <div class="h4">Projects</div>
                 </div>
             </div>
         </div>
@@ -28,22 +28,19 @@
         <script src="assets/js/data.js"></script>
         <script src="assets/js/fetch.js"></script>
         <script>
-            const activities = document.getElementById('thirdYearActivities');
+            const projectsContainer = document.getElementById('projectsContainer');
 
-            thirdYearActivities.forEach(activity => {
-                activities.innerHTML += `
+            projects.forEach(project => {
+                projectsContainer.innerHTML += `
                 <div class="col-12 col-md-4 mb-3">
                     <div class="card rounded-4">
-                        <iframe src="`+ activity.previewLink +`" class="rounded-4" width="100%"
-                            height="250" title="`+ activity.title +`"></iframe>
+                        <img src="`+ project.image +`" class="rounded-4 img-fluid"
+                            height="250" title="`+ project.title +`"></img>
                         <div class="card-body">
-                            <div class="h5">`+ activity.title +`</div>
-                            <div class="p">`+ activity.description +`</div>
-                            <div class="btn btn-primary mt-2 px-4"
-                                onclick="window.open('`+ activity.previewLink +`')"><i
-                                    class="bi bi-globe2"></i></div>
+                            <div class="h5">`+ project.title +`</div>
+                            <div class="p">`+ project.description +`</div>
                             <div class="btn btn-secondary mt-2 px-4"
-                                onclick="window.open('`+ activity.githubLink +`')">
+                                onclick="window.open('`+ project.githubLink +`')">
                                 <i class="devicon-github-original"></i>
                             </div>
                         </div>
