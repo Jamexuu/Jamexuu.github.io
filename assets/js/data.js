@@ -16,5 +16,11 @@ var thirdYearProjects = [
         description: "A Gallery website for Spotify artists.",
         previewLink: "https://jamexuu.github.io/Coding-with-Vibe/",
         githubLink: "https://github.com/Jamexuu/Coding-with-Vibe"
+    },
+    {
+        title: "Crypto Currency Overview",
+        description: "An overview of the current state of cryptocurrencies.",
+        previewLink: "https://jamexuu.github.io/Cryptocurrency-Overview/",
+        githubLink: "https://github.com/Jamexuu/Cryptocurrency-Overview"
     }
 ];
