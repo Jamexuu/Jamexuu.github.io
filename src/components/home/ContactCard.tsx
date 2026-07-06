@@ -7,9 +7,10 @@ function ContactCard() {
         <span className="text-sm text-green-100">Batangas, Philippines</span>
       </div>
       <div className="mt-3 flex flex-wrap gap-2">
-        <a href="mailto:you@example.com" className="text-sm border border-white rounded-full px-4 py-2 hover:bg-white hover:text-green-700 transition-colors">Email</a>
-        <a href="https://github.com/" target="_blank" rel="noreferrer" className="text-sm border border-white rounded-full px-4 py-2 hover:bg-white hover:text-green-700 transition-colors">GitHub</a>
-        <a href="https://linkedin.com/" target="_blank" rel="noreferrer" className="text-sm border border-white rounded-full px-4 py-2 hover:bg-white hover:text-green-700 transition-colors">LinkedIn</a>
+        <a href="mailto:jamesfrancislmercado@gmail.com" className="text-sm border border-white rounded-full px-4 py-2 hover:bg-white hover:text-green-700 transition-colors">Email</a>
+        <a href="https://github.com/Jamexuu" target="_blank" rel="noreferrer" className="text-sm border border-white rounded-full px-4 py-2 hover:bg-white hover:text-green-700 transition-colors">GitHub</a>
+        <a href="https://www.linkedin.com/in/james-francis-mercado/" target="_blank" rel="noreferrer" className="text-sm border border-white rounded-full px-4 py-2 hover:bg-white hover:text-green-700 transition-colors">LinkedIn</a>
+        <a href="https://www.facebook.com/jamesfrancis.mercado22" target="_blank" rel="noreferrer" className="text-sm border border-white rounded-full px-4 py-2 hover:bg-white hover:text-green-700 transition-colors">Facebook</a>
       </div>
     </div>
   );

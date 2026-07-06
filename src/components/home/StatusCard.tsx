@@ -5,15 +5,15 @@ function StatusCard() {
       <div className="flex flex-col gap-1.5 mt-2">
         <div className="flex items-center gap-2">
           <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse shrink-0"></span>
-          <span className="text-sm font-medium text-stone-700">Ongoing capstone development</span>
+          <span className="text-sm font-medium text-stone-700">Ongoing capstone project development</span>
         </div>
         <div className="flex items-center gap-2">
           <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse shrink-0"></span>
-          <span className="text-sm font-medium text-stone-700">Open to opportunities</span>
+          <span className="text-sm font-medium text-stone-700">Open for freelancing projects and opportunities</span>
         </div>
         <div className="flex items-center gap-2">
           <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse shrink-0"></span>
-          <span className="text-sm font-medium text-stone-700">Still learning...</span>
+          <span className="text-sm font-medium text-stone-700">Still progressing...</span>
         </div>
       </div>
     </div>
