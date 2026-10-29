@@ -7,10 +7,11 @@ export interface Project {
   role: string;
   period: string;
   description: string;
-  problem: string;
-  solution: string;
+  problem?: string;
+  solution?: string;
   techStack: string[];
-  highlights: string[];
+  highlights?: string[];
+  contributions?: string[];
   githubUrl?: string;
   liveUrl?: string;
 }

@@ -3,8 +3,6 @@ import Navbar from "../components/Navbar";
 import IntroSection from "../sections/IntroSection";
 import WorkSection from "../sections/WorkSection";
 import StackSection from "../sections/StackSection";
-import JourneySection from "../sections/JourneySection";
-import AboutSection from "../sections/AboutSection";
 import ContactSection from "../sections/ContactSection";
 import Footer from "../components/Footer";
 
@@ -13,7 +11,7 @@ export default function Home() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sectionIds = ["work", "stack", "journey", "about", "contact"];
+      const sectionIds = ["work", "stack", "contact"];
       const scrollPosition = window.scrollY + 200;
 
       for (const id of sectionIds) {
@@ -40,12 +38,10 @@ export default function Home() {
     <div className="min-h-screen">
       <Navbar activeSection={activeSection} />
 
-      <main className="max-w-6xl mx-auto px-6 sm:px-8">
+      <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <IntroSection />
         <WorkSection />
         <StackSection />
-        <JourneySection />
-        <AboutSection />
         <ContactSection />
         <Footer />
       </main>

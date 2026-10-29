@@ -24,36 +24,35 @@ export const projects: Project[] = [
     number: "01",
     title: "PharmaDali",
     category: "Multi-Platform Pharmacy Management System",
-    status: "Active Contributor",
-    role: "Backend & Systems Contributor",
-    period: "2024 — Present",
-    description: "A multi-platform pharmacy management system powering web and mobile applications for customers, pharmacists, and admins, featuring automated stockout risk prediction and inventory operations.",
-    problem: "Retail pharmacies frequently face unindexed stock records, critical medicine stockout risks, and communication gaps between front-desk pharmacists and inventory administrators.",
-    solution: "Contributed to backend services built with Laravel, MySQL, and Docker, supporting multi-role API routing (Admin, Pharmacist, Customer), stockout tracking, and push notification pipelines.",
-    techStack: ["Laravel", "PHP", "MySQL", "Docker", "REST API", "React Native"],
-    highlights: [
-      "Contributed to normalized relational database schemas for pharmacy inventories and transactions",
-      "Integrated role-based API endpoints powering web administrative dashboards and mobile apps",
-      "Utilized Dockerized container environments for consistent cross-team backend execution"
+    status: "Academic Project",
+    role: "Backend & Mobile Developer",
+    period: "2026 — Present",
+    description: "An academic multi-platform pharmacy management system powering web and mobile applications for customers, pharmacists, and admins, featuring automated stockout risk prediction and inventory operations.",
+    techStack: ["Laravel", "React", "React Native", "MySQL", "Gemini AI API", "Firebase (FCM)", "Docker", "VPS", "REST API"],
+    contributions: [
+      "Engineered the entire backend service layer and core logic with Laravel and MySQL, integrating unified RESTful APIs across React web and mobile platforms",
+      "Developed both customer and pharmacist mobile applications using React Native with role-tailored workflows and inventory interfaces",
+      "Integrated the Gemini AI API for intelligent features alongside Firebase Cloud Messaging (FCM) for real-time order and inventory push notifications",
+      "Containerized the application stack with Docker and managed deployment on a cloud VPS for stable production operations"
     ],
-    githubUrl: "https://github.com/PharmaDali/PharmaDali"
+    githubUrl: "https://github.com/PharmaDali/PharmaDali",
+    liveUrl: "https://pharmadali.com"
   },
   {
     id: "easybuy",
     number: "02",
     title: "EasyBuy (EasyBuy-x-PackIT)",
     category: "E-Commerce & System Integration Architecture",
-    status: "Completed Integration",
+    status: "Academic Project",
     role: "Lead Developer (EasyBuy) · Integration Architect",
-    period: "2024",
-    description: "An e-commerce ordering platform built as a two-group system collaboration, engineered to interface seamlessly with the PackIT packaging and fulfillment service.",
-    problem: "Academic systems requiring two independent team projects to collaborate, share transactional states, and process checkout-to-packaging pipelines without inventory synchronization drift.",
-    solution: "Led the development of the EasyBuy web platform, architected the MySQL database, and designed API integration contracts to hand off validated customer orders to PackIT for fulfillment.",
+    period: "2025",
+    description: "An academic e-commerce ordering platform built as a two-group system collaboration, engineered to interface seamlessly with the PackIT packaging and fulfillment service.",
     techStack: ["PHP", "MySQL", "JavaScript", "REST API", "Tailwind CSS", "Git"],
-    highlights: [
-      "Main developer for EasyBuy: built product catalogs, cart mechanics, and checkout flows",
-      "Designed inter-system API contracts and status synchronization with PackIT",
-      "Managed active repository collaboration across teams with 780+ commits"
+    contributions: [
+      "Led full development of the EasyBuy web platform, implementing product catalogs, cart mechanics, and checkout flows",
+      "Architected the relational MySQL database schema to handle order processing and transactional states",
+      "Designed and implemented inter-system REST API integration contracts to hand off validated customer orders to PackIT",
+      "Coordinated active cross-team Git repository workflows with 780+ commits to maintain status synchronization"
     ],
     githubUrl: "https://github.com/Jamexuu/EasyBuy-x-PackIT"
   },
@@ -64,15 +63,13 @@ export const projects: Project[] = [
     category: "Python / Flask Web System",
     status: "Academic Project",
     role: "Backend & Database Contributor",
-    period: "2024",
-    description: "A database-driven web application managing academic paper submissions, document schemas, structured forms, and centralized records.",
-    problem: "Academic document handling often suffers from fragmented file uploads, unstandardized record schemas, and difficult tracking across submission milestones.",
-    solution: "Contributed to backend route controllers, relational database connection utilities, schema views, and form validation logic using Python and Flask.",
+    period: "2025",
+    description: "An academic database-driven web application managing paper submissions, document schemas, structured forms, and centralized records.",
     techStack: ["Python", "Flask", "MySQL", "Relational Schemas", "REST Routes"],
-    highlights: [
-      "Developed modular Flask routes and database connection utilities",
-      "Implemented schema view logic and strict server-side form validations",
-      "Structured backend data directory and relational record persistence"
+    contributions: [
+      "Developed modular Flask route controllers and relational database connection utilities",
+      "Implemented schema view logic and strict server-side form validations for academic document submissions",
+      "Structured the backend data architecture and managed normalized MySQL persistence for paper records"
     ],
     githubUrl: "https://github.com/abigailcbarrion/Papernest"
   }
@@ -86,6 +83,7 @@ export const techStackData: TechCategory[] = [
       { name: "Laravel", note: "REST APIs, MVC, Eloquent ORM, auth middleware, migrations" },
       { name: "PHP", note: "Server-side logic, session handling, script automation" },
       { name: "MySQL", note: "Relational schema design, indexes, foreign keys, normalization" },
+      { name: "Firebase", note: "Cloud Messaging (FCM), Firestore, Auth, real-time sync" },
       { name: "Python / Flask", note: "Web routes, backend utilities, data schemas, forms" },
       { name: "REST APIs", note: "Endpoint routing, HTTP status codes, JSON contracts" },
       { name: "Java", note: "Object-oriented programming, data structures, JDBC" }
@@ -99,7 +97,8 @@ export const techStackData: TechCategory[] = [
       { name: "React", note: "Component hierarchy, hooks, API data fetching" },
       { name: "JavaScript (ES6+)", note: "Asynchronous async/await, fetch API, data transformations" },
       { name: "Tailwind CSS", note: "Utility-first responsive layouts, UI states" },
-      { name: "React Native", note: "Mobile client interfaces consuming backend APIs" }
+      { name: "React Native", note: "Mobile client interfaces consuming backend APIs" },
+      { name: "Gemini AI API", note: "LLM endpoint integration, automated prompts & assistants" }
     ]
   },
   {

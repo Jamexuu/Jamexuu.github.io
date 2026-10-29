@@ -3,19 +3,33 @@
 @theme {
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --color-brand-50: #f2f9f2;
+  --color-brand-100: #e1f2e1;
+  --color-brand-200: #c3e4c4;
+  --color-brand-300: #96cf98;
+  --color-brand-400: #66b668;
+  --color-brand-500: #46a347;
+  --color-brand-600: #378738;
+  --color-brand-700: #2c6c2d;
+  --color-brand-800: #245625;
+  --color-brand-900: #1d461e;
 }
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  overflow-x: clip;
 }
 
 body {
   font-family: var(--font-sans);
-  background-color: #faf9f6;
+  background-color: #f8faf7;
   color: #1c1917;
+  overflow-x: clip;
 }
 
 ::selection {
-  background-color: #1c1917;
-  color: #faf9f6;
+  background-color: #c3e4c4;
+  color: #1d461e;
 }
