@@ -128,7 +128,7 @@ export default function ContactSection() {
 
           <div className="p-3.5 rounded-lg border border-brand-200/70 bg-brand-50/35 font-mono text-xs text-stone-600 leading-relaxed">
             <span className="font-semibold text-brand-800 block mb-0.5">TURNAROUND</span>
-            <span>Typically replies within 24–48 hours for opportunities and inquiries.</span>
+            <span>Typically replies within 24-48 hours for opportunities and inquiries.</span>
           </div>
         </div>
       </div>
