@@ -3,7 +3,7 @@ export interface Project {
   number: string;
   title: string;
   category: string;
-  status: string;
+  status?: string;
   role: string;
   period: string;
   description: string;

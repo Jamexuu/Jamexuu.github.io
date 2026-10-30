@@ -12,7 +12,7 @@ export const personalInfo = {
   headline: "Building backend services, relational databases, and understanding how software systems work under the hood.",
   bio: [
     "I got into programming during senior high school after writing my first lines of code. What began as simple algorithmic puzzles quickly grew into a genuine curiosity about how real-world applications handle data reliably.",
-    "While many start with visual design, I found myself drawn to what happens behind the scenes — designing relational database schemas, mapping entity relationships, and engineering predictable API endpoints.",
+    "While many start with visual design, I found myself drawn to what happens behind the scenes: designing relational database schemas, mapping entity relationships, and engineering predictable API endpoints.",
     "I value readable code, solid data modeling, and understanding fundamentals before abstractions. Every project is an opportunity to write cleaner server-side code and deepen my engineering discipline."
   ],
   collaborationStatus: "Open for internship opportunities, technical discussions, and backend software engineering projects."
@@ -24,13 +24,12 @@ export const projects: Project[] = [
     number: "01",
     title: "PharmaDali",
     category: "Multi-Platform Pharmacy Management System",
-    status: "Academic Project",
-    role: "Backend & Mobile Developer",
-    period: "2026 — Present",
-    description: "An academic multi-platform pharmacy management system powering web and mobile applications for customers, pharmacists, and admins, featuring automated stockout risk prediction and inventory operations.",
+    role: "Lead Developer",
+    period: "2026 - Present",
+    description: "Our undergraduate capstone project: an academic multi-platform pharmacy management system powering web and mobile applications for customers, pharmacists, and admins, featuring automated stockout risk prediction and inventory operations.",
     techStack: ["Laravel", "React", "React Native", "MySQL", "Gemini AI API", "Firebase (FCM)", "Docker", "VPS", "REST API"],
     contributions: [
-      "Engineered the entire backend service layer and core logic with Laravel and MySQL, integrating unified RESTful APIs across React web and mobile platforms",
+      "Led overall system development and engineered the core Laravel backend service layer with unified RESTful APIs for web and mobile clients",
       "Developed both customer and pharmacist mobile applications using React Native with role-tailored workflows and inventory interfaces",
       "Integrated the Gemini AI API for intelligent features alongside Firebase Cloud Messaging (FCM) for real-time order and inventory push notifications",
       "Containerized the application stack with Docker and managed deployment on a cloud VPS for stable production operations"
@@ -43,14 +42,13 @@ export const projects: Project[] = [
     number: "02",
     title: "EasyBuy (EasyBuy-x-PackIT)",
     category: "E-Commerce & System Integration Architecture",
-    status: "Academic Project",
-    role: "Lead Developer (EasyBuy) · Integration Architect",
+    role: "Fullstack Developer · Integration Architect",
     period: "2025",
-    description: "An academic e-commerce ordering platform built as a two-group system collaboration, engineered to interface seamlessly with the PackIT packaging and fulfillment service.",
+    description: "Final project for our 3rd year curriculum: an academic e-commerce ordering platform built as a two-group system collaboration, engineered to interface seamlessly with the PackIT packaging and fulfillment service.",
     techStack: ["PHP", "MySQL", "JavaScript", "REST API", "Tailwind CSS", "Git"],
     contributions: [
-      "Led full development of the EasyBuy web platform, implementing product catalogs, cart mechanics, and checkout flows",
-      "Architected the relational MySQL database schema to handle order processing and transactional states",
+      "Developed the fullstack EasyBuy web platform using PHP, MySQL, and JavaScript, implementing product catalogs, cart mechanics, and checkout flows",
+      "Architected the relational MySQL database schema to handle order processing, inventory items, and transactional states",
       "Designed and implemented inter-system REST API integration contracts to hand off validated customer orders to PackIT",
       "Coordinated active cross-team Git repository workflows with 780+ commits to maintain status synchronization"
     ],
@@ -61,10 +59,9 @@ export const projects: Project[] = [
     number: "03",
     title: "Papernest",
     category: "Python / Flask Web System",
-    status: "Academic Project",
-    role: "Backend & Database Contributor",
-    period: "2025",
-    description: "An academic database-driven web application managing paper submissions, document schemas, structured forms, and centralized records.",
+    role: "Backend & Database Developer",
+    period: "2024",
+    description: "Final project for our 2nd year Object-Oriented Programming (OOP) class: an academic database-driven web application managing paper submissions, document schemas, structured forms, and centralized records.",
     techStack: ["Python", "Flask", "MySQL", "Relational Schemas", "REST Routes"],
     contributions: [
       "Developed modular Flask route controllers and relational database connection utilities",
@@ -138,14 +135,14 @@ export const learningItems: LearningItem[] = [
 
 export const timelineMilestones: TimelineMilestone[] = [
   {
-    year: "2023 — Present",
+    year: "2023 - Present",
     title: "Bachelor of Science in Information Technology",
     institution: "Polytechnic University of the Philippines (PUP)",
     description: "Focused on backend software engineering, relational database management systems, web applications, and collaborative multi-group system integration.",
     badge: "Current"
   },
   {
-    year: "2022 — 2023",
+    year: "2022 - 2023",
     title: "Senior High School (TVL-ICT Strand)",
     institution: "La Consolacion College Tanauan",
     description: "Graduated with honors in technical vocational studies; developed foundational programming logic, algorithms, and early software projects.",

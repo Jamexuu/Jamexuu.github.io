@@ -17,7 +17,7 @@ export default function Footer() {
           JAMES FRANCIS L. MERCADO
         </span>
         <span className="text-brand-400 hidden min-[380px]:inline">/</span>
-        <span className="text-stone-500 whitespace-nowrap">2021–PRESENT</span>
+        <span className="text-stone-500 whitespace-nowrap">2021 - PRESENT</span>
       </div>
 
       <button

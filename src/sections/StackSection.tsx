@@ -21,7 +21,7 @@ export default function StackSection() {
         number="02"
         label="ENGINEERING STACK"
         title="Technology Map & Practical Tooling"
-        description="An honest breakdown of the languages, frameworks, and infrastructure tools I use to build applications — organized by practical familiarity rather than arbitrary percentages."
+        description="An honest breakdown of the languages, frameworks, and infrastructure tools I use to build applications, organized by practical familiarity rather than arbitrary percentages."
       />
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
